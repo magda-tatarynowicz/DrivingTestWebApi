@@ -11,6 +11,8 @@ namespace Data.Entities
         public string QuestionString { get; set; }
         public int Points { get; set; }
         public bool IsVerified { get; set; }
-
+        public byte[] Photo { get; set; }
+        public string PhotoString { get; set; }
+        public string Theory { get; set; }
     }
 }

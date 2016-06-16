@@ -61,7 +61,6 @@
     <Compile Include="Entities\AdvancedQuestion.cs" />
     <Compile Include="Entities\ApplicationUser.cs" />
     <Compile Include="Entities\BasicQuestion.cs" />
-    <Compile Include="Entities\AdvancedQuestionAnswer.cs" />
     <Compile Include="Entities\Entity.cs" />
     <Compile Include="Entities\Question.cs" />
     <Compile Include="Entities\QuestionUser.cs" />
@@ -89,6 +88,22 @@
     <Compile Include="Migrations\201605040215086_QuestionUser.cs" />
     <Compile Include="Migrations\201605040215086_QuestionUser.Designer.cs">
       <DependentUpon>201605040215086_QuestionUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201605112029576_photos.cs" />
+    <Compile Include="Migrations\201605112029576_photos.Designer.cs">
+      <DependentUpon>201605112029576_photos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201605112047329_AdvancedQuestionFix.cs" />
+    <Compile Include="Migrations\201605112047329_AdvancedQuestionFix.Designer.cs">
+      <DependentUpon>201605112047329_AdvancedQuestionFix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606150650356_AdvancedQuestionFix1.cs" />
+    <Compile Include="Migrations\201606150650356_AdvancedQuestionFix1.Designer.cs">
+      <DependentUpon>201606150650356_AdvancedQuestionFix1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606150914088_photos-fix.cs" />
+    <Compile Include="Migrations\201606150914088_photos-fix.Designer.cs">
+      <DependentUpon>201606150914088_photos-fix.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -120,6 +135,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201605040215086_QuestionUser.resx">
       <DependentUpon>201605040215086_QuestionUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605112029576_photos.resx">
+      <DependentUpon>201605112029576_photos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605112047329_AdvancedQuestionFix.resx">
+      <DependentUpon>201605112047329_AdvancedQuestionFix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606150650356_AdvancedQuestionFix1.resx">
+      <DependentUpon>201606150650356_AdvancedQuestionFix1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606150914088_photos-fix.resx">
+      <DependentUpon>201606150914088_photos-fix.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

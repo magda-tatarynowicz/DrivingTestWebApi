@@ -14,5 +14,12 @@ namespace Data.Repositories.Interfaces
         IList<AdvancedQuestion> GetAllVerifiedAdvancedQuestions();
         IList<BasicQuestion> GetAllVerifiedBasicQuestions();
         IList<Question> GetAllVerifiedQuestions();
+        IList<Question> GetAllNotVerifiedQuestions();
+        void RemoveAllQuestions();
+        void AddSampleQuestions();
+        void AddQuestionsWithPicture();
+        void RemoveQuestion(int id);
+        void VerifyQuestion(int questionId);
+
     }
 }

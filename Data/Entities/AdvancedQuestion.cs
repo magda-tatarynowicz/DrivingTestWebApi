@@ -8,7 +8,9 @@ namespace Data.Entities
 {
     public class AdvancedQuestion : Question
     {
-        public virtual List<AdvancedQuestionAnswer> Answers { get; set; }
         public int CorrectAnswer { get; set; }
+        public string AnswerA { get; set; }
+        public string AnswerB { get; set; }
+        public string AnswerC { get; set; }
     }
 }

@@ -20,7 +20,7 @@ namespace Data
         public IQuestionsRepository Questions => _questionsRepository.Value;
         public IQuestionUsersRepository QuestionUsers => _questionUsersRepository.Value;
 
-        public DrivingTestContext()
+        public DrivingTestContext() : base("DrivingTestContext")
         {
             _questionsRepository = new Lazy<QuestionsRepository>(() => new QuestionsRepository(this));
             _questionUsersRepository = new Lazy<QuestionUsersRepository>(() => new QuestionUsersRepository(this));

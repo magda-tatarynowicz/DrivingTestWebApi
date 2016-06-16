@@ -12,5 +12,6 @@ namespace Data.Repositories.Interfaces
         IList<Question> GetAnsweredQuestionsOfUser (string UserId);
         IList<Question> GetNotAnsweredQuestionsOfUser(string UserId);
 
+        bool AddAdmin();
     }
 }
